@@ -1,0 +1,100 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .contenedor {
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+  }
+  
+  h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .campo {
+    margin: 15px 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  
+  select,
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  select:focus,
+  input:focus {
+    outline: 2px solid #90caf9;
+  }
+  
+  .botones {
+    margin-top: 20px;
+  }
+  
+  button {
+    font-size: 1rem;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  #mensaje {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #ffffff;
+  }
+  
+  .imagen-contenedor {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #imagen {
+    width: 200px;
+    display: none;
+    animation: girar 2s linear infinite;
+    border-radius: 12px;
+  }
+  
+  @keyframes girar {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

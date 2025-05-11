@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Género y Peso</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="contenedor">
+    
+
+    <div class="campo">
+      <label for="genero">Género:</label>
+      <select id="genero">
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+      </select>
+    </div>
+
+    <div class="campo">
+      <label for="peso">Peso (kg):</label>
+      <input type="number" id="peso">
+    </div>
+
+    <div class="botones">
+      <button onclick="enviar()">Enviar</button>
+      <button onclick="reiniciar()">Reiniciar</button>
+    </div>
+
+    <p id="mensaje"></p>
+
+    <div class="imagen-contenedor">
+      <img id="imagen" src="img/watona.jpg" alt="Imagen giratoria">
+    </div>
+    
+    <audio id="audio" src="img/oyegelda.mp3"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
